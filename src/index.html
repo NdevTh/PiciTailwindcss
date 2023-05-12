@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script src="./echarts/echarts.js"></script>
+    <title>Searchlook</title>
+  </head>
+  <body>
+    <nav class="flex flex-row justify-between border p-4">
+      <ul class="flex justify-center border p-1">
+        <a href="">Logo Sherlock</a>
+        <a href="">Trial</a>
+        <a>Renewal</a>
+        <a>Products</a>
+        <a>Glossary</a>
+      </ul>
+      <div class="border p-1">search</div>
+      <div class="flex">
+        <div class="p-1">Welcome, Dany Jennervé</div>
+        <button type="submit" class="bg-blue p-1">Logout</button>
+      </div>
+    </nav>
+    <!-- Main -->
+ <header>
+    <article class="flex justify-between border">
+      <div class="flex mb-4 justify-between items-center">
+        <h1 class="text-5xl font-semibold p-1">Dashboard</h1>
+        <h3 class="text-lg mt-5 ml-2 text-blue-400">
+          <a ref="">(go to Explorer)</a>
+        </h3>
+      </div>
+      <div class="flex justify-around m-1">
+        <div class="flex justify- text-blue-400 items-center p-1">
+          Discover Analytics
+        </div>
+        <button class="bg-blue-500 rounded-md p-2">ADD CARD</button>
+      </div>
+    </article>
+</header>
+<main>
+    <section class="flex flex-col gap-4 md:flex-row justify-between p-4">
+      <!--Start First CARD -->
+      <article class="flex-1 card bg-base-100 shadow-xl p-3">
+        <div>
+          <h2 class="text-2xl text-gray-400">Net MRR</h2>
+          <h3 class="text-base text-gray-400">Monthly, Last 12 Months</h3>
+        </div>
+        <div class="flex justify-around p-5">
+          <div class="text-center pad">
+            <h1 class="text-2xl text-gray-500">€ 6.9M</h1>
+            <h2 class="text-gray-400 text-1xl pt-2">Date 2023</h2>
+          </div>
+          <div class="border-2 w-0"></div>
+          <div class="text-center text-gray-400">
+            <div>2,7%</div>
+            <div>since 2023</div>
+            <div>57,%</div>
+            <div>since apr 2022</div>
+          </div>
+        </div>
+        <!-- il faut une taille mini pour afficher -->
+        <div id="container" class="h-60 p-4">
+          <script src="./JS/barCharts.js"></script>
+        </div>
+      </article>
+      <!-- end First CARD -->
+      <!-- star second card -->
+      <article class="card flex-1 bg-base-100 shadow-xl p-3">
+        <section>
+          <h2 class="text-2xl text-gray-400">Active Subscribers</h2>
+          <h3 class="text-base text-gray-400">Monthly, Last 12 Months</h3>
+        </section>
+        <div class="flex justify-around p-5">
+          <div class="text-center items-center">
+            <h1 class="text-2xl text-gray-500">€ 6.9M</h1>
+            <h2 class="text-gray-400 text-1xl pt-2">Date 2023</h2>
+          </div>
+          <div class="border-2 w-0"></div>
+          <div class="text-center text-gray-400">
+            <div>2,7%</div>
+            <div class="text-xs">since 2023</div>
+            <div>57,%</div>
+            <div class="text-sm">since apr 2022</div>
+          </div>
+        </div>
+        <!-- il faut une taille mini pour afficher -->
+        <div id="container2" class="h-60 w-auto scroll-pt-5">
+          <script src="./JS/areaCharts.js"></script>
+        </div>
+      </article>
+      <!-- third CARD -->
+      <article class="flex-1 card bg-base-100 shadow-xl p-3">
+        <section>
+          <h2 class="text-2xl text-gray-400">Average MRR</h2>
+          <h3 class="text-base text-gray-400">Monthly, Last 12 Months</h3>
+        </section>
+        <div class="justify-center items-center p-5">
+            <h1 class="text-center text-4xl items-center">€37.3K</h1>
+            <h2 class="text-gray-400 text-1xl pt-2">Date 2023</h2>
+        </div>
+          <div class="text-center items-center text-gray-400">
+            <div>2,7%</div>
+            <div class="text-xs">since 2023</div>
+            <div>57,%</div>
+            <div class="text-sm">since apr 2022</div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <article>
+      <section class="bg-blue">
+        <h2>Net MRR Changes</h2>
+      </section>
+    </article>
+    </main>
+  </body>
+</html>

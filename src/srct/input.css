@@ -1,0 +1,117 @@
+.titleActi {
+  font-size: 3vh;
+}
+
+.date {
+  font-size: 2vh;
+}
+
+.date1 {
+  font-size: 2vh;
+}
+
+.dateTitle {
+  font-size: 2vh;
+}
+
+.perform {
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.symPerf {
+  width: 4vw;
+  height: 4vh;
+}
+
+/* ------------colonne vertical------------ */
+
+.barVertical {
+  /* width: 1vw; */
+  width: 3vw;
+  height: 13vh;
+  background: rgb(162, 162, 162);
+  margin: none;
+}
+
+.grid.col20 {
+  margin-top: 2vh;
+  height: 13vh;
+  background-color: rgb(21, 255, 0);
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+
+.grid.col1 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  font-size: 5vh;
+  /* border: 1px solid red; */
+}
+
+.grid.col13 {
+  height: 20vh;
+  /* background-color: rgb(14, 235, 150); */
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  font-size: 10vh;
+  /* border: 1px solid red; */
+}
+
+.grid.col3 {
+  height: 20vh;
+  width: 20vw;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5vh;
+  /* border: 1px solid red; */
+}
+
+.activity {
+  /* width: 100vw; */
+  height: 20vh;
+  /* background-color: rgb(228, 139, 24); */
+  /* align-items: center; */
+  padding: 1%;
+}
+
+.activity.col10 {
+  width: 100vw;
+  height: 15vh;
+  border-radius: 10px;
+  /* background-color: rgb(197, 228, 24); */
+  text-align: center;
+  align-items: center;
+  /* padding: 1%; */
+}
+
+.activity.since {
+  width: 100vw;
+  height: 10vh;
+  border-radius: 10px;
+  /* background-color: rgb(77, 58, 250); */
+  padding: 1%;
+}
+
+.pied {
+  padding: none;
+  /* justify-content: center; */
+  border-radius: 10px;
+  border: 1px solid red;
+  /* width: 100vw; */
+  height: 40vh;
+  background: green;
+}
+
+.graph1 {
+  margin: none;
+  padding: none;
+  display: grid;
+  justify-content: center;
+  /* border: 1px solid yellow; */
+}
